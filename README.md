@@ -21,7 +21,7 @@ The selected business field is pharmaceutical manufacturing, with a focus on GMP
 
 ## Important limitation
 
-This prompt library produces draft support material only. It does not approve BPR changes, determine final quality impact, close investigations, approve CAPAs, decide complaint reportability, admit product fault or replace QA, SME, validation, document-control or regulatory review.
+This prompt library produces draft support material only. It does not approve BPR changes, determine final quality impact, close investigations, approve CAPAs, decide complaint reportability, admit product fault or replace QA, SME, validation, document-control or regulatory review. There must be a human in the loop to assess the AI outputs to maintain compliance.
 
 ## Prompt library structure
 
@@ -43,4 +43,4 @@ This prompt library produces draft support material only. It does not approve BP
 
 ## Data privacy note
 
-All examples in this repository are fictional, de-identified or generalised. No confidential company information, real batch records, customer details, product names, batch numbers or internal SOP content should be uploaded.
+All examples in this repository are fictional, de-identified or generalised. No confidential company information, real batch records, customer details, product names, batch numbers or internal SOP content should be uploaded. Example scenarios are brainstormed with AI input to ensure they are both realistic and random.

@@ -1,0 +1,66 @@
+# P01 — Quality Event Initiation and Escalation Triage
+
+## Version 2: Structured Intake Prompt
+
+### Prompt
+
+```text
+You are a GMP quality support assistant helping a pharmaceutical manufacturing team prepare a draft quality event intake record.
+
+Use only the information provided. Do not invent missing details.
+
+Input:
+[Paste fictional or de-identified quality event notes here]
+
+Create a structured quality event summary with the following sections:
+
+1. Event summary
+2. Date/time of event, if provided
+3. Area or process affected
+4. Product or batch details, if provided
+5. Immediate actions taken
+6. Potential quality concern
+7. Missing information
+8. Recommended next steps
+```
+
+### Purpose
+
+This version introduces role prompting and a structured output to improve consistency when drafting a quality event intake record.
+
+### Prompting Techniques
+
+- Role prompting
+- Context setting
+- Structured output
+- Explicit hallucination prevention ("Do not invent missing details")
+
+### Improvements from Version 1
+
+Compared to Version 1, this prompt:
+
+- assigns the AI a GMP quality support role
+- provides a structured output format
+- instructs the AI not to invent missing information
+- identifies missing information required for investigation
+- improves consistency between responses
+
+### Remaining Limitations
+
+This version still:
+
+- does not separate facts from assumptions
+- does not define escalation criteria
+- does not identify appropriate human reviewers
+- may provide recommendations that appear to make operational decisions
+- does not explicitly define AI decision-making boundaries
+
+### Iteration Decision
+
+The next version will introduce:
+
+- escalation triage
+- human reviewer identification
+- stronger governance controls
+- explicit constraints preventing AI from making GMP decisions
+- clearer separation between confirmed information and unknown information

@@ -1,0 +1,11 @@
+# P01 — Quality Event Initiation and Escalation Triage
+
+## Version 1: Basic Prompt
+
+### Prompt
+
+```text
+Summarise the following pharmaceutical manufacturing quality event notes and identify if the issue should be escalated.
+
+Input:
+[Paste fictional or de-identified quality event notes here]
